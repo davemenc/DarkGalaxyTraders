@@ -4,9 +4,9 @@ DarkGalaxyTraders is a turn based computer game with an emphasis on exploration 
 ## What's Here
 As of this writing, there are two versions. 
 
-DarkGalaxyTraders is a text based game in python that features star systems connected by wormholes (that is, it's a graph based map). It's a complete game in the sense that it can be played to completion but it has no graphics (think 101 BASIC Games from days of yore). It primarily demonstrates a trading system but we'll get back to it anon.
+*DarkGalaxyTraders* is a text based game in python that features star systems connected by wormholes (that is, it's a graph based map). It's a complete game in the sense that it can be played to completion but it has no graphics (think 101 BASIC Games from days of yore). It primarily demonstrates a trading system but we'll get back to it anon.
 
-DarkContinentTraders is a graphic turn base game that puts the player on a big landmass. His mission: find the cities, identify the bests commodities to trade and trade them until he hwas enough money to win. This game is incomplete in the sense that all you can do is wander around finding cities; it doesn't have the trading part yet. 
+*DarkContinentTraders* is a graphic turn base game that puts the player on a big landmass. His mission: find the cities, identify the bests commodities to trade and trade them until he hwas enough money to win. This game is incomplete in the sense that all you can do is wander around finding cities; it doesn't have the trading part yet. 
 
 ## Where This Is Going
 The vision for the game is to have it be a multiplayer web based game. Beyond that, I want to have several different games that are all connected. 
