@@ -11,14 +11,14 @@ As of this writing, there are two versions.
 ## Where This Is Going
 The vision for the game is to have it be a multiplayer web based game. Beyond that, I want to have several different games that are all connected. 
 
-When you get complete one game you go through a portal (which costs most of your money and other resources) and start over on another. 
+When you complete one game you may go through a portal (which costs most of your money and other resources) and start over on another. "Winning" in this model means "getting to go to the next game". 
 
 The game you teleport to might be the same kind of game (a different continent and different players and commodities to trade) or it might be a something else (a space game or a completely different sort of game).
 
 Eventually, it may be that other people create games that follow the same connection rules so now you can connect from my trading game to someone else's. 
 
 ## Contributing
-I have a very simple notion of contributing. If you want to help with an existing game, by all means you can do a pull request. But if you want to go off in a completely different direction you can just copy the code you like into another directory (as I have done with DarkGalaxyTraders and DarkContinentTraders) and create a new game there. Since the goals is to hook all these games togehter eventually it will all be connected. 
+Writing a game is a big project. This is a fairly simple game but it still has a lot of moving parts. I can imagine someone else being willing to do some of the work or add some cool embellishments. To do that, just do a pull request and we'll work it out.  
 
 ## Licence
 I use the Apache License which means that anything added to this repo stops being your property and becomes available to everyone. Very egalitarian but if you have hopes of one day being rich off your work, DO NOT CHECK IT IN HERE!
