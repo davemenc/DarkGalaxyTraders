@@ -1,0 +1,8 @@
+DGT TODO
+- better load and save game -- isn't there a standard way to serialize and unserialize data!?
+- in game help
+- read me
+- copyright
+- put it up on the git server
+- try it on linux box
+- play it more: is it fun!?

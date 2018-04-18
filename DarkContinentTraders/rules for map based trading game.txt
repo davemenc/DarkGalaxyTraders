@@ -1,0 +1,149 @@
+Exploration Game Rules
+
+MAP
+
+The map has 2 kinds of terrain: land and water.
+The map also contains cities.
+Some parts of the map are known, the rest is unknown. Known squares are shown as land, water and cities while about unknown squares, nothing is shown.
+Some cities are on both water and land and these are called "port cities" or just "ports".
+
+UNITS
+There are 2 kinds of units: water and land. Water units cannot move on land, land units cannot move on water. Both units can move into ports.
+All land units can be bought in any city in which the player has a "factor" or "agent". Water units can only be purchased in a port with a factor. (Note that a factor is not a unit and cannot be moved, it's just an attribute of a city.)
+
+LAND UNITS
+Land units come in 3 kinds: scouts, caravans and regiments. Multiple land units can be in the same square, up to 6 total units. 
+
+Zones of Control (ZOCs)
+Regiments exert a "zone of control" (ZOC) that affects the movement of other units. In the four cardinal directions they exert a full ZOC, in the four diagonal directions they exert 1/2 ZOC. ZOCs are additive so if multiple units exert a 1/2 ZOC on the same square it's counted as a full ZOC. And if units exert a full ZOC on the same square it's a double ZOC. 
+
+1/2 ZOCs have no effect on movement. Full ZOCs stop regiments and scounts: those units must stop in the first full ZOC they move into, ending their movement that turn.  Caravans cannot move into full ZOCs. No unit can move from one full ZOC directly into another full ZOC. No unit can move into a double ZOC.
+
+In case you can't picture this, the implications are like this: If one regiment is sitting in front of a scout or regiment then it can slow them down -- they can move adjacent and then stop or they can move around it expendening extra movement points. One regiment can absolutely stop a caravan (it can move in front of it and, when the caravan tries to move around it, it can move to be in front of it again). This is a non-combat way that regiments can interact with other units; perhaps one can interfere with one's enemies without actually going to war. 
+
+In a war, two regiments can sit one square away from each other and absolutely prevent movement. Regiments can move up to them and attack them but they can't move between them. Thus you can have a line. 
+
+Given the stacking rules, you can't really hold such a line. If you have 6 units and I have 3 you can control a 12 square line but I can stack my 3 units in a square and attack one of yours and that's pretty much the end of the line. So probably what will happen is that stacks of regiments will roam around looking for caravans and cities to raid and whoever has the biggest stack will win. But if my army is bigger than yours I can definitely spread out and force you to fight instead of just slipping around me if I have at least 3 regiments and at least 2x as many regiments as you have.
+
+Scouts
+Scouts move 3 squares a turn and can see 2 squares. 
+Scouts can be expended to buy a "factor" or "agent" in any city that doesn't already have a factor or agent. 
+Scouts can move into a full ZOC but they can't move from one ZOC to anothe
+
+Caravans
+Caravans move 1 square a turn and can see only the adjacent squares. 
+Caravans can carry one good, buying it in one city and selling it in another. Not all goods are available in all cities, nor are they purchased in all cities. 
+Caravans cannot voluntarily move into a zone of control. They can move into a 1/2 ZOC.
+
+Regiments
+Regiments move 2 squares a turn and can see 2 squares. 
+Regiments have "zones of control" or ZOCs (see above) . That means that 2 regiments with one square between them will have a full ZOC in the squares that are diagonally adjacent to both of them. The square between them will have a double ZOC. 
+
+WATER UNITS
+Like land units there are 3 kinds of water units: patrol boats, cargo ships and battleships. There are no zones of control.
+
+Patrol Boats
+Patrol boats are just like scouts: they move 3 squares and can see 2 and can be converted into a factor in a port city. 
+
+Cargo Ships
+Cargo Ships are just like caravans: they move 1 square and see 1 square and can carry one cargo. 
+
+Battleships 
+Battleships are just like regiments: they can move 2 squares and see 2 squares. Unlike regiments they have no zones of control. 
+
+Factors
+A scout or a patrol boat in a city (in the case of a patrol boat it would have to be a port city) can be expended to gain a factor in that city. The factor has a few powers:
+* the factor always knows the current prices and goods demanded and available in the city
+* the factor may rent multiple warehouse spaces in the city; each space may hold one good. 
+* the factor may buy goods and put them in the warehouse spaces 
+* the factor may sell goods and put them in the warehowse spaces
+* the factor knows of all transactions in the city
+* the factor may buy units in the city
+
+Scouts and caravans of all players may enter the city and buy and sell goods normally. Regiments of a player other than the factor's player may not enter the city. Up to 3 regiments of the player who owns the factor may be in the city but their combat factors are doubled. 
+
+Implications of factors
+If you have a factor in a city, in particular a port, it prevents your oponent from using that city to build units and store goods while allowing you to do this things.
+
+Goods
+There are many different kinds of goods which are used in different games with different pricepoints. Generally, each city sells one good while buying 4 goods but which cities do which is random. 
+The whole idea of the game is to find a pair of nearby cities such that one buys a good while the other sells it. If the one that sells that good also buys the good sold by the other that would be ideal but random chance makes this unlikely. 
+The cheap good pay off a little better as a percentage but more absolute money can be made with more expensive goods. Of course, it all depends on how much money you have so some effort might need to be expended initially in finding not only a pair of matching cities but ones that trade in a good you can afford. Eventually you'll want the highest possible prices. 
+
+Buying Goods
+Every city sells one good; if your caravan or cargo ship is empty and you have enough money you can buy that good. If you have a factor in the city you can also direct him to buy a good and store it in a warehouse. 
+
+Selling Goods
+Every city buys four goods. There are also 4 cities that will buy the same good. If you have a cargo ship or a caravan with that good you can sell it. There are also warehouses that could conceivably have the good this city buys (presumably because a caravan or cargo ship brought it)  but it's hard to imagine how that could be profitable after you paid for the warehouse. 
+
+Warehouses
+Warehouses can be rented by your factor in the cities they exist. Every turn you have to pay for every warehouse. The goods in the warehose can be dropped off by a caravan or cargo ship or purchased in the city or picked up by a caravan or a cargo ship or sold in the city at will. Empty warehouses stop being a thing.
+
+The main reason you might want to do this is if you have a port that receives goods from non-port cities to be transported to other ports. The caravan and the ship don't need to wait for both of them to be there. 
+
+This could also be used if you think the price of goods will vary in a favorable way. For example, if you expect the price of a good to go up you could buy it now and put it in a warehouse and then pick it up when the caravan arrives. Or you could load a good from the caravan into a warehouse to wait for a better price. All this assumes you know how the prices will vary over time which you probably will if you have a factor in the city.
+
+Money
+Money is the universal in the game. You can buy anything with money (in the right place); you get money for selling things; you win when you have enough money and you lose if you run out of money. 
+Needless to say, the point of the game is to increase your money. 
+
+Grouping
+To simplify movement in the game, you can combine up to six units into a group. You can then give the group orders and all those units will go to the same place. Groups move at the pace of the slowest unit. You cannot group units unless they are in the same square. 
+
+Standing Orders
+You can give a unit or a group standing orders. These can be movement orders such as "go to location x" or buy orders such as, "if possible buy y" or sell orders such as "if possible, sell z". For buy and sell orders every unit with a standing order will try to do it every turn. If it can't (for example, it's a regiment and can't buy and sell or it's a caravan that's not in the right city) it simply won't do the thing. 
+For movement orders it will execute them in order. So if you say go to x,y; go to x1,y1; go to x2,y2 it will go to x,y and then go to x1,y1 then to x2,y2.
+Orders of all kinds can be persistent or not. Persistent orders will continue to be executed after the first time they are succesfully completed; non persistent orders will be forgotten once it works. 
+
+Persistent movement orders will be moved to the bottom of the list when they are completed. 
+
+This allows you to have a caravan move from one city to another and back (or to multiple cities on a fixed itinerary) all the while buying goods when possible and selling them when possible. The only problem would be if you have multiple buy orders and the goods can be bought at multiple places: the caravan might buy the wrong good in the wrong city thus screwing up a carefully constructed n-way trade. 
+
+Note that standing orders can be applied to groups so you can have two caravans and two regiments following a profitable route and be protected the whole way without having to enter multiple orders. 
+
+Combat Against Combat Units
+Other than the previous discussion of Zones of Control, combat is very simple. When two combat units are next to each other after movement, the one belonging to the active player can attack the other. We flip a coin and on heads the attacker wins and the defender is eliminated; on tails the defender wins and the attacker is eliminated. Each unit in a stack can attack once; defenders defend until they die. If, after all the the attackers in the stack are done attacking (or have nothing to attack), there are still attackers and no defenders, all the attackers move into the square of the defenders. This is not optional and happens even if the square has a double ZOC (it's not movement so it doesn't break the rule that units can never move into double zone of control). 
+
+If two squares attack the same square the attacks will happen in an arbitrary order. First one stack will attack and, if they empty the target square, will move in. Whatever the outcome, then the other stack will attack. If there is a friendly unit in the square they will decline to attack. If there are still enemy units they will attack and, if they empty the square, move into it. 
+
+Combat Against non-Combat Units
+When an attacked square contains only non-combat units (either because there were no combat units in the square or because they've all be distroyed) the non-combat units cease to exist and the combat units move into the square without (further) losses. If there were goods in the square then those goods can be picked up by empty caravans in the stack of the attacking units. This is automatic on the theory that you can always dump them if you don't want them. 
+
+Combat Against Cities
+A city with a factor defends as a combat unit (so it requires a flip of a coin to take). A city with military units in it loses that "free unit" but doubles every regiment or battleship so they count as two. A city cannot contain more than 3 military units. There is no limit to the number of scouts and caravans in the city. 
+
+When a city with factor is entered by a military unit, the factor disappears. Note that it is not replaced by a friendly factor: you have move in your own scout and turn him into a factor.
+
+When the factor is destroyed so are all the warehouses and all the goods in them. 
+
+Note that you don't really get very much 
+
+Start of game
+At the start of game you get a big chunk of money and an empty caravan in a city. The city has your factor. 
+
+Strategy
+The key of the whole game, whether multi- or single-player, and no matter how complicated we've made it, is to find at least one really profitable trade route. The idea is to find a city that sells a good that can be purchased by another city -- as close as possible -- for as large a profit as possible. Then you do that over and over again until you win.
+
+At the very start of the game, you only have one caravan and only know one city. You need to find more cities. If you can, buy a scout because scouts are MUCH better at, well, scouting. When the scout or the caravan has found the magic trade route, start going back and forth. 
+
+Fairly soon you will find that you have a lot of extra money that isn't doing you any good. The thing to do with this money is to buy scouts who will go out and find other cities that you can then trade between. Then you buy another caravan (possibly by turning your scout into a factor so you can buy the caravan locally) and set it up on that trade route.
+
+You should keep repeating this trick until you win. In theory, it might be more efficient to NOT invest in scouts and more caravans (and instead just use the existing trade routes) but it seems likely you'll want to have at least 2 or three trade routes before you do that and, depending on how good the new trade route is, it may always be better to add more than "just wait." Eventually, the total output of all your trade routes should dwarf the amount of money you need to win and so you will. 
+
+If there are multiple players in the game, the player who has a really profitable set of trade routes will will over the player who has fewer trade routes. So the player with fewer will want to buy military units to stop him. But this has to be done early because once a player has a lot of money lying around he will be able to buy a bunch of units to defend himself and, since he still has the money making trade routes, he will still win. 
+
+You cannot win without good trade routes so just building units doesn't help. You build military units to steal the other guy's trade routes -- that is, prevent him from moving along it while allowing yourself to move along it. 
+
+There should be a LOT of good trade routes which is why you want to make sure you develop (and,if necessary, defend) several. You don't just want a good one, or even the best one, you want the best 5 or 6 so that even if your oponent takes one you still have plenty of money to get them back. 
+
+Buying Units
+When you 
+Winning
+List of Commands
+
+User Interface
+On the right hand side of the screen there is a list of the commodities you know. 
+
+The commodities have their prices next to them: green is for buying prices, red is for selling prices. Since every commodity is sold in only one place but can be bought in multiple places, there will be more red than green. When you click on a commodity it will hightlight all the cities that you know about that transact that commodity: green for places it is bought, red for places it can be sold.
+
+The cities have names but I can't think of why you would care. Maybe later. 
