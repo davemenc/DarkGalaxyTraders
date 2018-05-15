@@ -1,0 +1,4 @@
+INSTALLATION
+To play this game you must have all files in a directory with the "MASS" directory there too. 
+You must have python and pygame installed. 
+Otherwise, I don't think you need anything else. 

@@ -1,0 +1,69 @@
+5/5/2018
+Once More With Feeling: A List of UI Elements
+THE UI REGION
+	'leftblank': (1515, 0, 165, 1050)
+	'topblank': (0, 0, 1680, 100), 
+
+ON THE RIGHT
+	a list of commodities we've found (buttons)
+ON THE MAP
+The highlight: the cities that have the chosen commodity (preferably flashing)
+(You click on a commodity and the cities that have that flash -- red for sell, green for buy)
+
+ON THE TOP
+location: (416,3,170,20) "Location: xxx,yyy" (total 17 char or 170 pix) 200 pix 1 line
+
+type: (600,3,50,20): "Land" or "Water or City" (total 5 char or 50 pix)50 pix 1 line
+
+cash (416,28,140,20) "Cash: $######" (total 14 char or 140 pix)
+
+carrying (416,53,200,20): "Carrying: <comm> " (total 20 char or 200 pix
+
+cityname (416,77,100,20) conditional (10 characters or 100 pix) 100 pix 1 line
+
+offer (680,3,200,20) Total : 200 pix x 1 line
+	offer_name (680,3,100,20) Buyable commodity aka "Offer"  (10 characters or 100 pix) 
+	offer_price (780,3,50,20) Buy price (5 characters or 50 pix)
+	offer_button (830,3,30,20) conditional button next to buyable commodity iff you aren't carrying anything and you have enough money "Buy" (3 characters, 30 pix)
+	
+
+DEMANDS
+	Demand 1 (992,3,200,20)
+		demand_name_1 (992,3,100,20) (10 characters or 100 pix) 
+		demand_price_1 (1092,3,50,20) Sell price (5 characters or 50 pix)
+		demand_button_1 (1142,3,30,20) "Buy" (3 characters, 30 pix) conditional button next to sellable commodity iff you are carrying this 
+	demand 2 (992,28,200,20)
+		demand_name_2 (992,28,100,20) (10 characters or 100 pix) 
+		demand_price_2 (1092,28,50,20) Sell price (5 characters or 50 pix)
+		demand_button_2 (1142,28,30,20) "Buy" (3 characters, 30 pix) conditional button next to sellable commodity iff you are carrying this 
+	demand 3 (992,53,200,20)
+		demand_name_3 (992,53,100,20) (10 characters or 100 pix) 
+		demand_price_3 (1092,53,50,20) Sell price (5 characters or 50 pix)
+		demand_button_3 (1142,53,30,20) "Buy" (3 characters, 30 pix) conditional button next to sellable commodity iff you are carrying this 
+	demand 4 (992,78,200,20)
+		demand_name_4 (992,78,100,20) (10 characters or 100 pix) 
+		demand_price_4 (1092,78,50,20) Sell price (5 characters or 50 pix)
+		demand_button_4 (1142,78,30,20) "Buy" (3 characters, 30 pix) conditional button next to sellable commodity iff you are carrying this 
+
+				"carrying":(416,53,200,20),
+				"cash":(416,28,140,20),
+				"cityname":(416,78,100,20),
+				"demand_button_1":(1142,3,30,20),
+				"demand_button_2":(1142,28,30,20),
+				"demand_button_3":(1142,53,30,20),
+				"demand_button_4":(1142,78,30,20),
+				"demand_name_1":(992,3,100,20),
+				"demand_name_2":(992,28,100,20),
+				"demand_name_3":(992,53,100,20),
+				"demand_name_4":(992,78,100,20),
+				"demand_price_1":(1092,3,50,20),
+				"demand_price_2":(1092,28,50,20),
+				"demand_price_3":(1092,53,50,20),
+				"demand_price_4":(1092,78,50,20),
+				"location":(416,3,170,20),
+				"offer_button":(830,3,30,20),
+				"offer_name":(680,3,100,20),
+				"offer_price":(780,3,50,20),
+				"type":(600,3,50,20)),
+
+

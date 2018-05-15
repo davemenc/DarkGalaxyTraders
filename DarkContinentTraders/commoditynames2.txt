@@ -42,19 +42,19 @@ Nickel
 Oats
 Oil
 Olive Oil
-Oxygen
 Palladium
 Plastics
 Platinum
 Pnut Oil
 Pottery
 Rapeseed
+Rice
 Rubber
 Rugs
-Sculpture
 Sheep
 Silk
 Silver
+Soybeans
 Spices
 Steel
 Steel
@@ -68,6 +68,7 @@ Tractors
 Uranium
 Water
 Weapons
+Wheat
 Wine
 Wood
 Wool

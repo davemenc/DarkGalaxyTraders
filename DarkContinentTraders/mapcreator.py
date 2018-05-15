@@ -41,7 +41,7 @@ def copy_black(target,source,offset):
 def gen_landmass():
 	#define some lists
 
-	imagelist = ["mass60.png","mass64.png","mass65.png","mass68.png","mass69.png","mass70.png","mass71.png","mass72.png","mass73.png","mass74.png","mass75.png","mass76.png","mass77.png","mass78.png","mass79.png","mass80.png","mass81.png","mass82.png","mass83.png","mass84.png","mass85.png","mass86.png","mass87.png","mass88.png","mass89.png","mass90.png","mass91.png","mass92.png","mass93.png","mass94.png","mass95.png","mass96.png","mass97.png","mass98.png","mass99.png"]
+	imagelist = ["mass60.png","mass64.png","mass65.png","mass68.png","mass69.png","mass70.png","mass71.png","mass72.png","mass73.png","mass74.png","mass75.png","mass76.png","mass77.png","mass78.png","mass79.png","mass80.png","mass81.png","mass82.png","mass83.png","mass84.png","mass85.png","mass86.png","mass87.png","mass88.png","mass89.png","mass90.png","mass91.png","mass93.png","mass94.png","mass95.png","mass96.png","mass97.png","mass98.png","mass99.png"]
 	rotatelist = [0,90,270,180]
 	methodlist = [Image.FLIP_LEFT_RIGHT,Image.FLIP_TOP_BOTTOM,"DONTFLIP"]
 	offsets=[(0,0),(250,0),(0,250),(250,250)]

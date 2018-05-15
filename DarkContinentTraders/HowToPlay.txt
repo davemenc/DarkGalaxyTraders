@@ -1,0 +1,40 @@
+How To Play Dark Continent Trader
+Version 1
+
+The game is played on a map of a single continent. It is surrounded by impassible water. It contains two kinds of terrain: land and cities. 
+
+You are a trade caravan moving from city to city, buying some things in one city and then selling them in another. Your caravan moves one square (left, right, up, down, or diagonally) each turn. 
+
+Your goal is to buy things and sell them to make a profit. 
+
+DISPLAY
+The screen is a big map. Green indicates empty land. Blue indicates empty water. Red indicates cities. Black indicates squares you haven't seen yet (of any type). All the action happens in the cities.
+
+Across the top is information about where you are: Your location, your cash, what, if anything, you are carrying ("In truck:"). 
+
+If you are in a city it also tells about the city: the name, the item you can buy in that city ("on offer") and the items you can sell ("on demand"). 
+
+BUYING AND SELLING
+If you can buy the commodity on offer (because there is nothing in your truck and you have enough money) there will be a  button next to the name of the commodity on offer that says "[BUY]". 
+
+If you can sell one of the commodities on demand (because it's in your truck and this city wants it), there will be a button next to that commodity that says "SELL". 
+
+Clicking on one of these buttons is all you can do in this city so if there are no buttons there is nothing to do (time to move on). 
+
+MOVING
+You can move up, down, left, right and the 4 diagonal directions. You do this by pressing the q,w,e,a,d,z,x,c keys (notice that they form a square around the s key) or by using the 7,8,9,4,6,1,2,3 keys on the keypad (notice that they form a square around the 5 key). 
+
+Just in case you've never seen this arrangement (it's certainly pretty common), w is up, a is right, d is left, x is down and the other keys are the diagonals (I'll leave it as an excercise how the keypad works...). 
+
+For each key press you move one square. You can see 2 squares in every direction. Each time you move onto a new square you learn about more squares. If you try to move onto ocean squares you simply don't move.
+
+QUITTING
+You can quit by pushing the "Esc" key (upper right corner of most keyboards). 
+
+INCOMPLETE PARTS
+This game is a "first playable" so it's not actually complete. You can move around and buy and sell stuff but you can't "win" the game. 
+
+Also you might notice a bunch of commodities listed on the right hand side. Those are all the commodities you've found. So far they don't do anything but eventually clicking on one of them will show you everywhere it's bought and sold (that you know about). Perhaps I'll add the buy and sell price to the list. If I only tell you what you've seen you can figure out which ones you can buy and which ones you can sell which, by itself, might be useful. 
+
+COMMENTS
+I wrote this because I like exploration and trading games and I wanted to do more pygame programming. I put it online so that others could play it and, if they like, make suggestions. And even implement their ideas. It's a do-ocracy which means that the person who does it gets to decide what "it" is. Have fun!
